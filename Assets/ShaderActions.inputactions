@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "ShaderActions",
+    "maps": [
+        {
+            "name": "Shader",
+            "id": "462761e2-b99c-4253-bb1e-3dca7a1af973",
+            "actions": [
+                {
+                    "name": "MousePressed",
+                    "type": "Button",
+                    "id": "da705035-c076-45a2-b289-ea7245f40087",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MousePosition",
+                    "type": "Value",
+                    "id": "1edd958d-c5e2-4d24-8536-5487dbb9bd3a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "165e076e-8846-4ff7-9126-8fd220fafa98",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7a60d105-af1e-487a-bdae-ef2364a8fe18",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
